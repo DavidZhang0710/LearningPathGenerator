@@ -1,0 +1,36 @@
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "数字逻辑电路,电路,模拟电子技术"
+        },
+        {
+            "role": "assistant",
+            "content": "relations = Relations([Triple(Knowledge('电路'), Rel('Precursor'), Knowledge('数字逻辑电路')),\n                       Triple(Knowledge('电路'), Rel('Precursor'), Knowledge('模拟电子技术')),])"
+        },
+        {
+            "role": "user",
+            "content": "机器学习,深度学习"
+        },
+        {
+            "role": "assistant",
+            "content": "relations = Relations([Triple(Knowledge('机器学习'), Rel('Precursor'), Knowledge('深度学习')),])"
+        },
+        {
+            "role": "user",
+            "content": "线性表,队列,链表,栈"
+        },
+        {
+            "role": "assistant",
+            "content": "relations = Relations([Triple(Knowledge('线性表'), Rel('Precursor'), Knowledge('队列')),\n                       Triple(Knowledge('线性表'), Rel('Precursor'), Knowledge('栈')),\n                       Triple(Knowledge('链表'), Rel('Precursor'), Knowledge('队列')),\n                       Triple(Knowledge('链表'), Rel('Precursor'), Knowledge('栈')),])"
+        },
+        {
+            "role": "user",
+            "content": "英语语法,英语写作"
+        },
+        {
+            "role": "assistant",
+            "content": "relations = Relations([Triple(Knowledge('英语语法'), Rel('Precursor'), Knowledge('英语写作')),])"
+        }
+    ]
+}

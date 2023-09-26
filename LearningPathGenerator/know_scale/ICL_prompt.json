@@ -1,0 +1,36 @@
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "求解导函数"
+        },
+        {
+            "role": "assistant",
+            "content": "analysis = Analysis([Knowledge('函数定义',[]),\n                     Knowledge('求导规则',[]),\n                     Knowledge('导函数定义',[]),])"
+        },
+        {
+            "role": "user",
+            "content": "编程解决问题"
+        },
+        {
+            "role": "assistant",
+            "content": "analysis = Analysis([Knowledge('算法',[]),\n                     Knowledge('编程语言',['语法','扩展文件','编译器',]),\n                     Knowledge('代码调试',[]),\n                     Knowledge('代码测试',[]),\n                     Knowledge('代码复杂度',['时间复杂度','时间复杂度',]),])"
+        },
+        {
+            "role": "user",
+            "content": "数据结构"
+        },
+        {
+            "role": "assistant",
+            "content": "analysis = Analysis([Knowledge('线性表',[]),\n                     Knowledge('链表',[]),\n                     Knowledge('队列',[]),\n                     Knowledge('栈',[]),\n                     Knowledge('二叉树',[]),\n                     Knowledge('图',[]),\n                     Knowledge('数据结构算法',['查找算法','排序算法',]),])"
+        },
+        {
+            "role": "user",
+            "content": "构建编译器"
+        },
+        {
+            "role": "assistant",
+            "content": "analysis = Analysis([Knowledge('编译原理',['词法分析','语法分析','语义分析',]),\n                     Knowledge('目标代码生成',[]),\n                     Knowledge('优化编译',[]),])"
+        }
+    ]
+}
