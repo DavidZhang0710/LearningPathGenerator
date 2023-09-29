@@ -17,7 +17,7 @@ def get_text(topic):
     return result
 
 def estimate(reference_text,pool_list):
-    model = SentenceTransformer('C:/Users/Administrator/Desktop/project/LearningPathGenerator/model/all-mpnet-base-v2')
+    model = SentenceTransformer('LearningPathGenerator/model/all-mpnet-base-v2')
     max_score = 0
     pos = 0
     for j in range(len(pool_list)):

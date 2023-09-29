@@ -31,7 +31,7 @@ def generate_html():
         # return render_template('render.html')
 
     else:
-        return "现使用API不支持多token生成，因此暂不开放BERT"
+        return "现使用API不支持多token生成，因此暂不开放MPNet"
         obj = PathGenerator(input_str)
 
         obj.build_message(obj.question_0, 0)
