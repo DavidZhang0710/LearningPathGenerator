@@ -71,9 +71,11 @@ sentence_transformers==2.2.2
    
    Similarly, if you want to use other LLMs API, you can adapt the ***get_answer()*** in *LearningPathGenerator/getAnswer.py* to your own version, but remember that you should keep the input and output form same with the original version.
 
-4. Demo
+4. Flask demo
 
-   If you want to experience a small demo of this project, you can click ***[here](http://124.221.34.139/projects/pathgenerator.html)*** to turn to a web demo.
+   The ***main.py*** is a simple ***Flask*** demo. You can easily apply it on a server or on a local server, and trigger it by browsing the URL in a certain format.
+   
+   Additionally, if you want to experience a small demo of this project, you can click ***[here](http://124.221.34.139/projects/pathgenerator.html)*** to turn to a web demo.
 
 ## More Details
 
