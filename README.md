@@ -9,7 +9,7 @@ Nowadays, more and more LLMs are trained to deal various kinds of problems, like
 
 ***Program-aided Language*** (PAL) Models are invented to deal with this kind of deep-logical-chain problems, which involve program to do the calculate process to ensure the accuracy. This project also apply this model to deal with the logical problems.
 
-***Learning path*** is a logical path along which you can . This project help you to build a learning path on most kinds of problems.
+***Learning path*** is a logical path along which you can learn to solve a problem on a roll. This project help you to build a learning path on most kinds of problems.
 
 ## Project Requirement
 Python3
