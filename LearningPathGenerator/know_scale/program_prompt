@@ -1,8 +1,0 @@
-class Knowledge:
-    def __init__(self, name: str,subtitle:list[str]):
-        self.name = name
-        self.subtitle=subtitle
-
-class Analysis:
-    def __init__(self, scales: List[Knowledge] = []):
-        self.scales = scales

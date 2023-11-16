@@ -1,8 +1,4 @@
 {
-    "scale_schema_path": "LearningPathGenerator/know_scale/program_prompt",
-    "scale_ICL_path": "LearningPathGenerator/know_scale/ICL_prompt.json",
-    "schema_path": "LearningPathGenerator/know_relation/program_prompt",
-    "ICL_path": "LearningPathGenerator/know_relation/ICL_prompt.json",
-    "API_KEY" : "YOUR_API_KEY",
-    "SECRET_KEY" : "YOUR_SECRET_KEY"
+    "API_KEY" :"8Pf4cRGChB0MkNmuQQchdmtQ",
+    "SECRET_KEY" :"gdIFwLl9W45Ij9eaVTAr9We3eSHnIh9o"
 }

@@ -22,15 +22,25 @@ def get_access_token():
     response = requests.request("POST", url, headers=headers, data=payload)
     return response.json().get("access_token")
 
-def get_answer(message):
+def get_answer(question):
         
     url = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/eb-instant?access_token=" + get_access_token()
 
     headers = {
         'Content-Type': 'application/json'
     }
-    
-    response = requests.request("POST", url, headers=headers, data=message)
+    payload = json.dumps({
+        "messages": [
+            {
+                "role": "user",
+                "content": question
+            }
+        ]
+    })
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
     json_res = json.loads(response.text)
     if 'error' in json_res:
         return 'ERROR: ' + json_res['error_code']
