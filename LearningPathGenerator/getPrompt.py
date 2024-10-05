@@ -11,7 +11,7 @@ os.environ['SECRET_KEY'] = SECRET_KEY
 
 def get_access_token():
         
-    url = "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id="+API_KEY+"&client_secret="+SECRET_KEY
+    url = "your/api/url/token?client_id=" + API_KEY + "&client_secret=" + SECRET_KEY
     
     payload = json.dumps("")
     headers = {
@@ -24,7 +24,7 @@ def get_access_token():
 
 def get_prompt_scale(question, num):
         
-    url = "https://aip.baidubce.com/rest/2.0/wenxinworkshop/api/v1/template/info?access_token=" + get_access_token() + "&id=11278&question=" + question + "&num=" + str(num)
+    url = "your/api/url/token?access_token=" + get_access_token() + "&your-template-id&question=" + question + "&num=" + str(num)
 
     headers = {
         'Content-Type': 'application/json'
@@ -45,7 +45,7 @@ def get_prompt_scale(question, num):
 
 def get_prompt_path(pool):
         
-    url = "https://aip.baidubce.com/rest/2.0/wenxinworkshop/api/v1/template/info?access_token=" + get_access_token() + "&id=11279&pool=" + pool
+    url = "your/api/url/token?access_token=" + get_access_token() + "&your-template-id&pool=" + pool
 
     headers = {
         'Content-Type': 'application/json'

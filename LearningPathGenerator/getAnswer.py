@@ -11,7 +11,7 @@ os.environ['SECRET_KEY'] = SECRET_KEY
 
 def get_access_token():
         
-    url = "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id="+API_KEY+"&client_secret="+SECRET_KEY
+    url = "your/api/url/token?client_id=" + API_KEY + "&client_secret=" + SECRET_KEY
     
     payload = json.dumps("")
     headers = {
@@ -24,7 +24,7 @@ def get_access_token():
 
 def get_answer(question):
         
-    url = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/eb-instant?access_token=" + get_access_token()
+    url = "your/api/url/token?access_token=" + get_access_token()
 
     headers = {
         'Content-Type': 'application/json'

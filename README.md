@@ -58,7 +58,7 @@ sentence_transformers==2.2.2
    
    The LLMs API used in this project is ***ERNIE Bot*** developed by Baidu, you can surface their website to get an API_KEY along with an SECRET_KEY, which will be used later.
    
-   After you finished the step 1, you can find *LearningPathGenerator/config.json*, you are supposed to replace the values of "API_KEY" and "SECRET_KEY" with those you have got.
+   After you finished the step 1, you can find *LearningPathGenerator/config.json*, you are supposed to replace the values of "API_KEY" and "SECRET_KEY" with those you have got, and all the URL for API invocation.
    
    Example given below:
    
@@ -67,6 +67,10 @@ sentence_transformers==2.2.2
        "API_KEY" : "YOUR_API_KEY",
        "SECRET_KEY" : "YOUR_SECRET_KEY"
    }
+   ```
+
+   ```python
+   url = "your/api/url/token?client_id=" + API_KEY + "&client_secret=" + SECRET_KEY
    ```
    
    Similarly, if you want to use other LLMs API, you can adapt the ***get_answer()*** in *LearningPathGenerator/getAnswer.py* to your own version, but remember that you should keep the input and output form same with the original version.

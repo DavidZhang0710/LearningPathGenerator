@@ -1,12 +1,8 @@
-import requests
-import json
-import os
 import re
 from LearningPathGenerator.getAnswer import get_answer
 from LearningPathGenerator.getPrompt import get_prompt_scale
 from LearningPathGenerator.getPrompt import get_prompt_path
 from LearningPathGenerator.Estimate import estimate, get_text
-from LearningPathGenerator.createGraphy import create_graphy
 
 class PathGenerator:
     question = ""

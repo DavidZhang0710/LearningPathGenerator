@@ -1,12 +1,9 @@
-import os
 from LearningPathGenerator.getAnswer import get_answer
 from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
-import json
 import numpy as np
 
 def get_text(topic):
-    result = get_answer(topic + "的学习步骤")
+    result = get_answer("How to " + topic)
     return result
 
 def estimate(text, pool_list):
