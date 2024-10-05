@@ -74,8 +74,6 @@ sentence_transformers==2.2.2
 4. Flask demo
 
    The ***main.py*** is a simple ***Flask*** demo. You can easily apply it on a server or on a local server, and trigger it by browsing the URL in a certain format.
-   
-   Additionally, if you want to experience a small demo of this project, you can click ***[here](http://124.221.34.139/projects/pathgenerator.html)*** to turn to a web demo (chinese version).
 
 ## More Details
 
